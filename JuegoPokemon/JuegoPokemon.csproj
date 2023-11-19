@@ -52,6 +52,7 @@
     <Compile Include="Batalla.Designer.cs">
       <DependentUpon>Batalla.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConexionBD.cs" />
     <Compile Include="Final.cs">
       <SubType>Form</SubType>
     </Compile>

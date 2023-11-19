@@ -74,6 +74,9 @@ namespace JuegoPokemon
                 MostrarImagen(rutaImagen);
             }
         }
+
+
+
         private void MostrarImagen(string rutaImagen)
         {
             Image imagen = Image.FromFile(rutaImagen);

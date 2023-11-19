@@ -103,5 +103,10 @@ namespace JuegoPokemon
             HallOfFame nuevoFormulario = new HallOfFame();
             nuevoFormulario.Show();
         }
+
+        private void Pokemon2PictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

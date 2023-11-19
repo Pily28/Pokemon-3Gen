@@ -35,16 +35,16 @@ namespace JuegoPokemon
            
 
             int borderRadius = 15; // Grado de curvatura
-            System.Drawing.Drawing2D.GraphicsPath roundedPath = GetRoundedRectangle(panel1.ClientRectangle, borderRadius);
+            System.Drawing.Drawing2D.GraphicsPath roundedPath = BorderRadius(panel1.ClientRectangle, borderRadius);
             Region roundedRegion = new Region(roundedPath);
             panel1.Region = roundedRegion;
 
-            System.Drawing.Drawing2D.GraphicsPath roundedPathPanel2 = GetRoundedRectangle(panel2.ClientRectangle, borderRadius);
+            System.Drawing.Drawing2D.GraphicsPath roundedPathPanel2 = BorderRadius(panel2.ClientRectangle, borderRadius);
             Region roundedRegionPanel2 = new Region(roundedPathPanel2);
             panel2.Region = roundedRegionPanel2;
         }
 
-        private System.Drawing.Drawing2D.GraphicsPath GetRoundedRectangle(Rectangle rectangle, int borderRadius)
+        private System.Drawing.Drawing2D.GraphicsPath BorderRadius(Rectangle rectangle, int borderRadius)
         {
             int diameter = borderRadius * 2;
             System.Drawing.Drawing2D.GraphicsPath roundedRect = new System.Drawing.Drawing2D.GraphicsPath();
