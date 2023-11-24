@@ -53,6 +53,7 @@
       <DependentUpon>Batalla.cs</DependentUpon>
     </Compile>
     <Compile Include="ConexionBD.cs" />
+    <Compile Include="EquipoPokemon.cs" />
     <Compile Include="Final.cs">
       <SubType>Form</SubType>
     </Compile>

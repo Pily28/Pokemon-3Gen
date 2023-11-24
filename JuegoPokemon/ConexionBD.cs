@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -19,13 +20,23 @@ namespace JuegoPokemon
             SqlConnection conexion = new SqlConnection(cadenaConexion);
             try
             {
-                conexion.Open();
+                // No es necesario abrir la conexión aquí
+                // conexion.Open();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al conectar a la base de datos: " + ex.Message);
             }
             return conexion;
+        }
+
+        // Agrega un nuevo método para cerrar la conexión
+        public void CerrarConexion(SqlConnection conexion)
+        {
+            if (conexion != null && conexion.State == ConnectionState.Open)
+            {
+                conexion.Close();
+            }
         }
 
     }

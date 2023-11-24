@@ -104,10 +104,7 @@ namespace JuegoPokemon
 
         }
 
-        private void Pokemon1PictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Pokemon2PictureBox_Click(object sender, EventArgs e)
         {
@@ -163,6 +160,28 @@ namespace JuegoPokemon
         }
 
         private void Rendirse2Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void NombreJugador1Label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NombrePokemon1Label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VidaPokemon1Label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pokemon1PictureBox_Click(object sender, EventArgs e)
         {
 
         }

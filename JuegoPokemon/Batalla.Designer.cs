@@ -95,12 +95,12 @@
             // 
             this.VidaPokemon1Label.AutoSize = true;
             this.VidaPokemon1Label.BackColor = System.Drawing.Color.Black;
-            this.VidaPokemon1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VidaPokemon1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VidaPokemon1Label.ForeColor = System.Drawing.Color.White;
-            this.VidaPokemon1Label.Location = new System.Drawing.Point(128, 87);
+            this.VidaPokemon1Label.Location = new System.Drawing.Point(47, 93);
             this.VidaPokemon1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.VidaPokemon1Label.Name = "VidaPokemon1Label";
-            this.VidaPokemon1Label.Size = new System.Drawing.Size(50, 16);
+            this.VidaPokemon1Label.Size = new System.Drawing.Size(57, 20);
             this.VidaPokemon1Label.TabIndex = 2;
             this.VidaPokemon1Label.Text = "label6";
             this.VidaPokemon1Label.Click += new System.EventHandler(this.label6_Click);
@@ -109,11 +109,12 @@
             // 
             this.NombrePokemon1Label.AutoSize = true;
             this.NombrePokemon1Label.BackColor = System.Drawing.Color.Black;
+            this.NombrePokemon1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NombrePokemon1Label.ForeColor = System.Drawing.Color.White;
-            this.NombrePokemon1Label.Location = new System.Drawing.Point(128, 44);
+            this.NombrePokemon1Label.Location = new System.Drawing.Point(47, 44);
             this.NombrePokemon1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NombrePokemon1Label.Name = "NombrePokemon1Label";
-            this.NombrePokemon1Label.Size = new System.Drawing.Size(44, 16);
+            this.NombrePokemon1Label.Size = new System.Drawing.Size(57, 20);
             this.NombrePokemon1Label.TabIndex = 1;
             this.NombrePokemon1Label.Text = "label4";
             // 
@@ -121,11 +122,12 @@
             // 
             this.NombreJugador1Label.AutoSize = true;
             this.NombreJugador1Label.BackColor = System.Drawing.Color.Black;
+            this.NombreJugador1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NombreJugador1Label.ForeColor = System.Drawing.Color.White;
-            this.NombreJugador1Label.Location = new System.Drawing.Point(128, 11);
+            this.NombreJugador1Label.Location = new System.Drawing.Point(47, 11);
             this.NombreJugador1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NombreJugador1Label.Name = "NombreJugador1Label";
-            this.NombreJugador1Label.Size = new System.Drawing.Size(44, 16);
+            this.NombreJugador1Label.Size = new System.Drawing.Size(57, 20);
             this.NombreJugador1Label.TabIndex = 0;
             this.NombreJugador1Label.Text = "label2";
             // 
@@ -147,38 +149,44 @@
             // 
             this.VidaPokemon2Label.AutoSize = true;
             this.VidaPokemon2Label.BackColor = System.Drawing.Color.Black;
-            this.VidaPokemon2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VidaPokemon2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VidaPokemon2Label.ForeColor = System.Drawing.Color.White;
-            this.VidaPokemon2Label.Location = new System.Drawing.Point(127, 90);
+            this.VidaPokemon2Label.Location = new System.Drawing.Point(52, 93);
             this.VidaPokemon2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.VidaPokemon2Label.Name = "VidaPokemon2Label";
-            this.VidaPokemon2Label.Size = new System.Drawing.Size(50, 16);
+            this.VidaPokemon2Label.Size = new System.Drawing.Size(57, 20);
             this.VidaPokemon2Label.TabIndex = 2;
             this.VidaPokemon2Label.Text = "label7";
+            this.VidaPokemon2Label.Click += new System.EventHandler(this.VidaPokemon2Label_Click);
             // 
             // NombrePokemon2Label
             // 
             this.NombrePokemon2Label.AutoSize = true;
             this.NombrePokemon2Label.BackColor = System.Drawing.Color.Black;
+            this.NombrePokemon2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NombrePokemon2Label.ForeColor = System.Drawing.Color.White;
-            this.NombrePokemon2Label.Location = new System.Drawing.Point(127, 44);
+            this.NombrePokemon2Label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.NombrePokemon2Label.Location = new System.Drawing.Point(52, 44);
             this.NombrePokemon2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NombrePokemon2Label.Name = "NombrePokemon2Label";
-            this.NombrePokemon2Label.Size = new System.Drawing.Size(44, 16);
+            this.NombrePokemon2Label.Size = new System.Drawing.Size(57, 20);
             this.NombrePokemon2Label.TabIndex = 1;
             this.NombrePokemon2Label.Text = "label5";
+            this.NombrePokemon2Label.Click += new System.EventHandler(this.NombrePokemon2Label_Click);
             // 
             // NombreJugador2Label
             // 
             this.NombreJugador2Label.AutoSize = true;
             this.NombreJugador2Label.BackColor = System.Drawing.Color.Black;
+            this.NombreJugador2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NombreJugador2Label.ForeColor = System.Drawing.Color.White;
-            this.NombreJugador2Label.Location = new System.Drawing.Point(127, 11);
+            this.NombreJugador2Label.Location = new System.Drawing.Point(52, 11);
             this.NombreJugador2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NombreJugador2Label.Name = "NombreJugador2Label";
-            this.NombreJugador2Label.Size = new System.Drawing.Size(44, 16);
+            this.NombreJugador2Label.Size = new System.Drawing.Size(57, 20);
             this.NombreJugador2Label.TabIndex = 0;
             this.NombreJugador2Label.Text = "label3";
+            this.NombreJugador2Label.Click += new System.EventHandler(this.NombreJugador2Label_Click);
             // 
             // button1
             // 
@@ -238,6 +246,7 @@
             // Pokemon2PictureBox
             // 
             this.Pokemon2PictureBox.BackColor = System.Drawing.Color.White;
+            this.Pokemon2PictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pokemon2PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Pokemon2PictureBox.Image")));
             this.Pokemon2PictureBox.Location = new System.Drawing.Point(1065, 382);
             this.Pokemon2PictureBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -246,10 +255,12 @@
             this.Pokemon2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Pokemon2PictureBox.TabIndex = 10;
             this.Pokemon2PictureBox.TabStop = false;
+            this.Pokemon2PictureBox.Click += new System.EventHandler(this.Pokemon2PictureBox_Click);
             // 
             // Pokemon1PictureBox
             // 
             this.Pokemon1PictureBox.BackColor = System.Drawing.Color.White;
+            this.Pokemon1PictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Pokemon1PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Pokemon1PictureBox.Image")));
             this.Pokemon1PictureBox.Location = new System.Drawing.Point(131, 382);
             this.Pokemon1PictureBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
